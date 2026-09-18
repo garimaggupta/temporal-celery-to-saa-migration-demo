@@ -1,0 +1,3 @@
+# The lambda_worker contrib package ships inside temporalio itself.
+# (For OpenTelemetry support, install temporalio[lambda-worker-otel] instead.)
+temporalio>=1.23.0

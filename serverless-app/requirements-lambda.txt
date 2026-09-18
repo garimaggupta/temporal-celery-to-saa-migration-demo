@@ -1,0 +1,4 @@
+# Minimal deps for the Lambda package — only what the worker imports.
+# Keeping this tight avoids bloat and the OpenTelemetry dependency cascade.
+# (lambda_worker lives inside temporalio; no [lambda-worker-otel] extra needed.)
+temporalio
