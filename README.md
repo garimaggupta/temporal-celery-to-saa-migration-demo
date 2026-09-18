@@ -35,8 +35,7 @@ attempts so you can watch retries happen.
 | `max_retries` / `self.retry()`  | `RetryPolicy`                             |
 | Flower / `celery inspect`       | `list_activities` / `count_activities`    |
 
-## The demo narrative (what to point out)
-
+## What this demo covers
 - **Less infrastructure.** Celery needs a broker *and* a result backend
   running (Redis here). Temporal needs only the Temporal Service — it queues
   work and durably stores results itself.
