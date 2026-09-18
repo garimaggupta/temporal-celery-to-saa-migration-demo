@@ -5,11 +5,6 @@ Workflow code** — a Standalone Activity is an Activity you start directly from
 Client. You get durability, retries, timeouts, and visibility for a single unit
 of work, which maps almost one-to-one onto a Celery task.
 
-> **Public Preview.** Standalone Activities are in
-> [Public Preview](https://docs.temporal.io/evaluate/development-production-features/release-stages#public-preview).
-> The API may change before stable release. Great for demos and evaluation;
-> check the [feature guide](https://docs.temporal.io/develop/python/activities/standalone-activities)
-> before relying on it in production.
 
 ## How the two sides line up
 
